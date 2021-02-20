@@ -1,0 +1,53 @@
+.videoFooter{
+    position: relative;
+    bottom: 270px;
+    color: white;
+    margin-left: 40px;
+    display: flex;
+}
+
+.videoFooter_text{
+    flex: 1;
+}
+
+.videoFooter_text > p {
+    /* font-weight:100; */
+    /* background-color: aqua; */
+    margin-top: 0;
+}
+.videoFooter_text > h3{
+    margin-bottom: 0;
+   padding-bottom: 10px;
+}
+
+.videoFooter_ticker > .ticker {
+    height: fit-content;
+    margin-left: 30px;
+    width: 60%;
+}
+.videoFooter_icon{
+    position: absolute;
+    padding-top: 15px;
+}
+.videoFooter_ticker{
+    /* background: wheat; */
+}
+
+.videoFooter_record{
+  animation: spinTheRecord infinite 5s linear;
+  height: 50px;
+  filter: invert(1);
+  position: absolute;
+  bottom: 0;
+  right: 20px;  
+}
+
+@keyframes spinTheRecord{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
