@@ -27,7 +27,7 @@ function Video({ vdo }) {
         <source src={vdo} type="video/mp4"></source>
       </video>
       <VideoFooter />
-      <VideoSidebar className="sidebar" />
+      <VideoSidebar />
     </div>
   );
 }
