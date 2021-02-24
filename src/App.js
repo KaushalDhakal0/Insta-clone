@@ -20,7 +20,7 @@ function App() {
           shares="150"
         />
         <Video
-          url={video2}
+          links={video2}
           channel="Village Life"
           description="Comedy"
           song="Please like share and Subscribe"
@@ -29,7 +29,7 @@ function App() {
           shares="13"
         />
         <Video
-          url={video3}
+          links={video3}
           channel="Urdu"
           description="Job interview"
           song="wierdest job interview"
@@ -38,7 +38,7 @@ function App() {
           shares="850"
         />
         <Video
-          url={video1}
+          links={video1}
           channel="Nepali"
           description="Comedy"
           song="future miss Nepal"
@@ -47,7 +47,7 @@ function App() {
           shares="130"
         />
         <Video
-          url={video5}
+          links={video5}
           channel="Mr. Beast"
           description="Homeless"
           song="Please like share and Subscribe"
@@ -56,7 +56,7 @@ function App() {
           shares="13"
         />
         <Video
-          url={video6}
+          links={video6}
           channel="narcos"
           description="Documentary"
           song="Please like share and Subscribe"
@@ -65,7 +65,7 @@ function App() {
           shares="13"
         />
         <Video
-          url={video7}
+          links={video7}
           channel="Pablo Escobar"
           description="Comedy"
           song="Please like share and Subscribe"
