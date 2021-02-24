@@ -6,6 +6,7 @@ import VideoSidebar from "./VideoSidebar";
 function Video({ links, channel, description, song, likes, messages, shares }) {
   const [playing, setPlaying] = useState(false);
   const videoRef = useRef(null);
+
   const handleVideoClick = () => {
     //stop if playing and vice versa
     if (playing) {
@@ -16,6 +17,7 @@ function Video({ links, channel, description, song, likes, messages, shares }) {
       setPlaying(true);
     }
   };
+
   return (
     <div className="video">
       <video
