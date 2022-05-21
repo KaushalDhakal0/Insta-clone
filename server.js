@@ -18,7 +18,7 @@ app.use((req, res, next) => {
 // Db Config
 
 const connecction_url =
-  "mongodb+srv://admin:kaushal@db2341@cluster0.rewlg.mongodb.net/tiktok?retryWrites=true&w=majority";
+  "mongodb+srv://admin:<password>@cluster0.rewlg.mongodb.net/tiktok?retryWrites=true&w=majority";
 
 mongoose.connect(connecction_url, {
   useNewUrlParser: true,
